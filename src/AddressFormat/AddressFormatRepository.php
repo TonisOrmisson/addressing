@@ -400,6 +400,7 @@ class AddressFormatRepository implements AddressFormatRepositoryInterface
                 ],
                 'administrative_area_type' => 'county',
                 'postal_code_pattern' => '\d{5}',
+                'subdivision_depth' => 1,
             ],
             'EG' => [
                 'format' => "%givenName %familyName\n%organization\n%addressLine1\n%addressLine2\n%locality\n%administrativeArea\n%postalCode",
